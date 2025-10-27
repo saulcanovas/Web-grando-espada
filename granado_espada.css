@@ -1,0 +1,599 @@
+@font-face {
+	font-family: "oxygen";
+	src: url("fonts/Oxygen-Regular.ttf");
+}
+
+body  {
+	font-family: "oxygen", sans-serif;
+	font-size: medium;
+	background-image: url(images/54075_escalada.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	margin: 0;
+
+}
+
+.logo {
+    width: 30%;
+	display: block;
+	margin: auto;
+    
+}
+.banner {
+	width: 79%;
+	margin-left: 10%;
+	margin-bottom: -9%;
+
+}
+main{
+
+	width: 70%;
+	background-color: rgba(245, 237, 237, 0.7);
+	margin-left: 12%;
+	padding-top: 6%;
+	border-radius: 1%;
+	text-align: justify;
+	padding: 6% 3% 5% 3%;
+}
+header {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+nav#menu {
+	width: 100%;
+	margin-bottom: 0;
+	display: block;
+	margin: 0;
+	position: fixed;
+	
+}
+#menu {
+    width: 100%;
+	margin:0;
+
+}
+#menu ul {
+    list-style-type: none; 
+    text-align: center;
+	font-size: 0;
+	margin-left: -5%;
+	
+}
+#menu > ul li {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    background: rgb(0, 0, 100, 0.3);
+}
+#menu li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: block;
+    line-height: 2.5rem;
+}
+#menu li a:hover,
+#menu li a:focus {
+    background: rgb(6, 172, 172);
+    color: #fff;
+}
+#menu li ul {
+    position: absolute;
+    width: 0;
+    overflow: hidden;
+}
+#menu li li {
+	display: block;
+    width: 100%;
+}
+#menu li:hover li a,
+#menu li:focus li a {
+    display: block;
+    font-size: .9rem;
+    line-height: 1.7rem;
+    border-top: 1px solid #e5e5e5;
+    background: rgb(56, 88, 177);
+}
+#menu li li a:hover,
+#menu li li a:focus {
+    background: rgb(66, 169, 221); 
+}
+#menu li:hover ul,
+#menu li:focus ul {
+    width: 100%;
+    z-index: 5;
+    margin: 0 -4rem -4rem -4rem;
+    padding: 0 4rem 4rem 4rem;
+
+}
+footer {
+	background-image: url(images/homeBg.png);
+	background-repeat: no-repeat;
+	background-size: 90% 100%;
+	padding: 2% 0;
+	margin-left: 9%;
+}
+
+footer p {
+	width: 89%;
+	text-align: center;
+	font-size: 120%;
+	color: rgb(57, 109, 168);
+
+}
+
+section#news article{
+	border-bottom: 1.5px dashed black;
+	text-align: justify;
+}
+section#news h1{
+	color: blue;
+	text-align: center;
+	font-size: 120%;
+	text-decoration: underline slateblue;
+}
+section#news time {
+	float: left;
+	margin-bottom: 2%;
+	font-weight: bold;
+	color: purple;
+}
+section#news p {
+	clear: left;
+}
+section#news a:link , a:visited, a:hover{
+	text-decoration: none;
+	color: darkblue;
+}
+section#news img {
+	width: 70%;
+	margin: 3%;
+	border: solid 2px black;
+	border-radius: 2%;
+}
+.play {
+	position: fixed;
+	margin-left: -20%;
+	width: 15%;
+	
+}
+.mapa {
+	width: 80%;
+	display: block;
+	margin: auto;
+	border-radius: 1%;
+}
+.barco {
+	position: relative;
+	float: right;
+	width: 40%;
+	margin: 1% 4% 4% 4%;
+	border-radius: 2%;
+}
+section#story img {
+	border: darkblue solid 2px;
+
+}
+section#story h1{
+	text-align: center;
+	color: blue;
+}
+
+
+
+
+
+nav#cities {
+	width: 100%;
+	margin-bottom: 0;
+	display: block;
+	margin: 0;
+
+	
+}
+#cities {
+    width: 100%;
+	margin: 0;
+
+}
+#cities ul {
+    list-style-type: none; 
+    text-align: center;
+	font-size: 100%;
+	margin-left: -5%;
+	
+}
+#cities > ul li {
+    display: inline-block;
+    width: 10%;
+    position: relative;
+    background: rgb(0, 0, 100, 0.3);
+}
+#cities li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    display: block;
+    line-height: 2.5rem;
+}
+#cities li a:hover,
+#cities li a:focus {
+    background: rgb(6, 172, 172);
+    color: #fff;
+}
+
+section#quests img {
+	width: 60%;
+	display: block;
+	margin: auto;
+	border: blue solid 1px;
+	margin-bottom: 1%;
+}
+section#quests caption {
+	font: 120% bold;
+	color: blue;
+	margin: 2%;
+
+}
+section#quests table {
+	margin: auto;
+}
+section#quests table, section#quests tr, section#quests td, section#quests th{
+	border-collapse: collapse;
+	text-align: justify;
+	border: rgba(180, 6, 180, 0.336) solid 1px;
+}
+section#quests tr:nth-child(odd) {
+    background-color: lightslategrey;
+}
+section#quests td {
+	padding: 1%;
+}
+section#quests blockquote {
+	text-align: center;
+}
+
+#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+#tableRow {
+	display: table-row;
+}
+#tableRow main {
+	display: table-cell;
+	width: 59%;
+	padding: 3% 1%;
+	vertical-align: top;
+}
+#tableRow aside {
+	display: table-cell;
+	width: 20%;
+	background-color: rgba(245, 237, 237, 0.7);
+	border-radius: 1%;
+	text-align: justify;
+	padding: 1%;
+	vertical-align: top;
+
+}
+#tableRow aside img{
+	width: 90%;
+	display: block;
+	margin: auto;
+	border: solid 2px blue;
+	margin-top: 20%;
+	border-radius: 2%;
+}
+section#information {
+	display: table-cell;
+	width: 20%;
+	background-color: rgba(245, 237, 237, 0.7);
+	border-radius: 1%;
+	text-align: justify;
+	padding: 1%;
+	vertical-align: top;
+
+
+}
+section#information img{
+	width: 90%;
+	display: block;
+	margin: auto;
+	border: solid 2px blue;
+	margin-top: 20%;
+	border-radius: 2%;
+
+
+}
+
+section#characters table {
+	width: 98%;
+	display: block;
+	margin: auto;
+}
+section#characters tr {
+	vertical-align: top;
+	margin: 3%;
+
+}
+section#characters tr:nth-child(odd) {
+    background-color: lightslategrey;
+}
+section#characters td {
+	padding-bottom: 2%;
+
+}
+section#characters table.choose td {
+	padding: 0;
+
+}
+section#characters th {
+	text-align: center;
+}
+section#characters table img{
+	width: 95%;
+	border-radius: 8%;
+	display: block;
+	margin: auto;
+	border: solid 1px black;
+}
+section#characters table.choose {
+	width: 60%;
+	display: block;
+	margin: auto;
+
+}
+section#characters table caption{
+	margin: 3%;
+	font-size: 120%;
+	font-weight: bold;
+	color: blue;
+	
+}
+section#characters th{
+	margin: 3%;
+	font-size: 110%;
+	color: rgb(17, 70, 131);
+	
+}
+section#characters table.choose td {
+		border: rgba(0, 0, 255, 0.253) solid 2px ;
+		border-radius: 3%;
+}
+section#characters table.npc td {
+		border: rgba(0, 0, 255, 0.253) solid 2px ;
+		border-radius: 3%;
+
+}
+section#characters table.npc {
+	width: 25%;
+	display: block;
+	margin: auto;
+
+}
+section#characters table.npc img  {
+	padding: 0;
+	width: 100%;
+
+}
+
+section#stances table {
+	width: 90%;
+	border-collapse: collapse;
+	display: block;
+	margin: auto;
+
+}
+
+section#stances caption {
+	padding: 2% 0;
+	font-size: 120%;
+	font-weight: bold;
+	
+}
+section#stances table table {
+	width: 100%;
+	border-radius: 3%;
+	padding: 1%;
+	border: solid 1px rgba(137, 43, 226, 0.185);
+	vertical-align: top;
+}
+
+
+section#stances table img{
+	width: 100%;
+	
+	
+}
+section#stances tr:nth-child(odd) {
+    background-color: rgba(96, 108, 243, 0.171);
+}
+section#stances table td, section#stances table th {
+	border-bottom: solid 1px rgba(96, 108, 243, 0.171);
+	border-spacing: 0;
+	
+	
+}
+section#stances table iframe{
+	width: 100%;
+	height: 100%;
+}
+
+.galeria {
+	width: 90%;
+	margin: auto;
+	list-style: none;
+	padding: 20px;
+	box-sizing: border-box;
+}
+h1 {
+	text-align: center;
+	color: #7743d88f;
+
+}
+.galeria img {
+	width: 150px;
+	height: 100px;
+	border: solid 1px black;
+	border-radius: 5%;
+
+}
+.galeria li {
+	margin: 5px;
+	display: inline;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	
+}
+.modal {
+	display: none;
+}
+.modal:target{
+	display: block;
+	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 10%;
+}
+.modal h3 {
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 15px 0;
+}
+.imagen {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 2;
+}
+.imagen a {
+	color: white;
+	font-size: 40px;
+	text-decoration: none;
+	margin: 0 10px;
+}
+.imagen a:nth-child(2) {
+	margin: 0;
+	height: 100%;
+}
+.imagen img {
+	width: 500px;
+	height: 100%;
+	max-width: 100%;
+	border: 7px solid white;
+	box-sizing: border-box;
+}
+.close {
+	display: block;
+	background: white;
+	width: 25px;
+	height: 25px;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	padding: 5px;
+	border-radius: 50%;
+	line-height: 25px;
+
+}
+@media (max-width: 767px) {
+  
+	body{
+		font-size: x-small;
+	}
+  
+	#menu > ul li {
+		width: 15%;
+	}
+
+
+	nav#menu a, #menu li:hover li a,
+	#menu li:focus li a{
+     	font-size: x-small;
+
+  	}
+  	#menu li li {
+		display: block;
+		width: 100%;
+	}
+
+	#cities > ul li {
+	  	width: 18%;
+  	}
+
+
+  	nav#cities a, #cities li:hover li a,
+  	#cities li:focus li a{
+     	font-size: x-small;
+
+  	}
+  	section#characters table.choose {
+		width: 95%;
+
+
+	}
+	
+
+	section#characters table.npc {
+		width: 50%;
+
+	}
+	section#stances table {
+		font-size: 90%;
+
+	}
+}
+@media (max-width: 480px) {
+  
+	body {
+		font-size: xx-small;
+	}
+	nav#menu a, #menu li:hover li a,
+	#menu li:focus li a{
+     	font-size: 8px;
+
+  	}
+	#menu > ul li {
+		width: 20%;
+	}
+	#menu li li {
+		display: block;
+		width: 100%;
+	}
+	footer {
+		font-size: 90%;
+	}
+
+	nav#cities a, #cities li:hover li a,
+	#cities li:focus li a{
+		font-size: 8px;
+
+	}
+	#cities > ul li {
+		width: 23%;
+	}
+	section#characters tr{
+		font-size: 80%;
+		}
+	section#characters table.choose {
+		width: 80%;
+	}
+	section#characters table.npc {
+		width: 60%;
+
+	}
+	section#stances table {
+		font-size: 80%;
+
+	}
+}

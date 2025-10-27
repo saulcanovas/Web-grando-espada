@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="granado_espada.css">
+    <link rel="icon" type="image/png" href="images/icon.png" />
+    <title>Granado Espada</title>
+</head>
+
+<body>
+    <header>
+        <nav id="menu">
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="story.html">STORY</a></li>
+                <li><a href="#">QUESTS</a>
+                    <ul>
+                        <li><a href="scenario.html">SCENARIO</a></li>
+                        <li><a href="recruiment.html">RECRUIMENT</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">CHARACTERS</a>
+                    <ul>
+                        <li><a href="premium.html">PREMIUM</a></li>
+                        <li><a href="stock.html">STOCK</a></li>
+                        <li><a href="rnpc.html">RNPC</a></li>
+                    </ul>
+        
+                </li>
+                <li><a href="#">SYSTEM</a>
+                    <ul>
+                        <li><a href="stances.html">STANCES</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                    </ul>
+        
+                </li>
+            </ul>
+        </nav>
+        <img class="logo" src="images/GranadoEspada-pequeño.png" alt="banner"> <br>
+        <img class="banner" src="images/GranadoEspada_artwork_15.png" alt="scout">
+
+    </header>
+
+
+
+    <main>
+        <section id ="characters">
+            <table class="choose"> 
+                <caption>STOCK CHARACTERS</caption>
+                <tr>
+                    <td><a href="#fighter"><img src="images/fighter_m.jpg" alt="fighter male"></a></td>
+                    <td><a href="#fighter"><img src="images/fighter_f.jpg" alt="fighter female"></a></td>
+                    <td><a href="#wizard"><img src="images/wiz_m.jpg" alt="wizard male"></a></td>
+                    <td><a href="#wizard"><img src="images/wiz_f.jpg" alt="wizard female"></a></td>
+                    <td><a href="#scout"><img src="images/scout_m.jpg" alt="scout male"></a></td>
+                    <td><a href="#scout"><img src="images/scout_f.jpg" alt="scout female"></a></td>
+                    <td><a href="#musketeer"><img src="images/musketeer_m.jpg" alt="musketeer male"></a></td>
+                    <td><a href="#musketeer"><img src="images/musketeer_f.jpg" alt="musketeer female"></a></td>
+                    <td><a href="#warlock"><img src="images/warlock_m.jpg" alt="warlock_m"></a></td>
+                    <td><a href="#warlock"><img src="images/warlock_f.jpg" alt="warlock_f"></a></td>
+                </tr>
+
+            </table>
+            <table id="fighter">
+                <caption>Fighter</caption>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Basic Information</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="images/fighter.jpg" alt="fighter">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Initial level:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>STR</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>AGI</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>CON</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>DEX</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>INT</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>CHA</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Promotion: + 30 STR or 30 CON</td>
+                            </tr>
+
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Job Skill: Provoke</th>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/job_provoke.jpg" alt="provoke"></td>
+                                <td>
+                                    100 SP <br>
+                                    Up to 8 enemies within range of 8m <br>
+                                    Cast 0, Action 1.2, Cooldown 0
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 10: For 15 seconds enemy's DEF -20, airborne enemies brought to ground</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 11: For 15 seconds enemy's DEF -21, airborne enemies brought to ground</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 12: For 15 seconds enemy's DEF -22, airborne enemies brought to ground</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Equipment</th>
+                            </tr>
+                            <tr>
+                                <td>Armor:</td>
+                                <td>Leather(Fighter), Metal</td>
+                            </tr>
+                            <tr>
+                                <td>Gloves:</td>
+                                <td>Gloves(Normal),Gloves(Leather), Gloves(Metal)</td>
+                            </tr>
+                            <tr>
+                                <td>Shoes:</td>
+                                <td>Boots(Normal),Boots(Leather), Boots(Metal)</td>
+                            </tr>
+                            <tr>
+                                <td>Belt:</td>
+                                <td>Belt(Normal),Belt(Leather), Belt(Metal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <th>Weapon(s)</th>
+                                <th colspan="5">Stance</th>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>Bareknuckle</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Blunt</td>
+                                <td>Back-Guard</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Blunt + Shield</td>
+                                <td>Back-Guard</td>
+                                <td>Defender (V)</td>
+                                <td>Crusader (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Dagger</td>
+                                <td>Esgrima</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Great Sword</td>
+                                <td>Plow-Guard</td>
+                                <td>Roof-Guard</td>
+                                <td>Sidewinder (V)</td>
+                                <td>Hanging Guard (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Javelin (+ Shield)</td>
+                                <td>Stave Guard (V)</td>
+                                <td>Peltast (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Polearm</td>
+                                <td>Blandir Cruz</td>
+                                <td>Mighty Cruz (V)</td>
+                                <td>Tronada Cruz (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Rapier</td>
+                                <td>Epee Garde</td>
+                                <td>Sabre Garde</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Rapier + Pistol</td>
+                                <td>Advance Garde (V)</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Sword + Sword</td>
+                                <td>Hack and Slash</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Sword + Shield</td>
+                                <td>Back-Guard</td>
+                                <td>High-Guard</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Sword</td>
+                                <td>Back-Guard</td>
+                                <td>Equites (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Sword + Pistol</td>
+                                <td>Heaven or Hell</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Pistol</td>
+                                <td>Freestyle Shot</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Sabre</td>
+                                <td>Middle-Guard</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Pistol + Pistol</td>
+                                <td>Double-Gun Shot</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+            
+            <table id="wizard">
+                <caption>Wizard</caption>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Basic Information</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="images/wizard.jpg" alt="wizard">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Initial level:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>STR</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>AGI</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>CON</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>DEX</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>INT</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>CHA</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Promotion: + 30 INT</td>
+                            </tr>
+            
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Job Skill: Energy Shield</th>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/job_energyshield.jpg" alt="shield"></td>
+                                <td>
+                                    60 SP, 1 Magical Orb <br>
+                                    Self Buff <br>
+                                    Cast 1, Action 1.1, Cooldown 30
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 10: For 55 seconds converts damage taken to SP drain at rate of 30%HP:10%SP</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 11: For 58 seconds converts damage taken to SP drain at rate of 32%HP:9.5%SP, DR +1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 12: For 62 seconds converts damage taken to SP drain at rate of 34%HP:9%SP, DR +1</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Equipment</th>
+                            </tr>
+                            <tr>
+                                <td>Armor:</td>
+                                <td>Coat (Wizard)</td>
+                            </tr>
+                            <tr>
+                                <td>Gloves:</td>
+                                <td>Gloves(Normal)</td>
+                            </tr>
+                            <tr>
+                                <td>Shoes:</td>
+                                <td>Boots(Normal)</td>
+                            </tr>
+                            <tr>
+                                <td>Belt:</td>
+                                <td>Belt(Normal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <th>Weapon(s)</th>
+                                <th colspan="5">Stance</th>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>Psychokinesis</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Rod</td>
+                                <td>Psychokinesis</td>
+                                <td>ESP</td>
+                                <td>Incantation (V)</td>
+                                <td>Levitation</td>
+                                <td>Telekinesis (E)</td>
+                            </tr>
+                            <tr>
+                                <td>Staff</td>
+                                <td>Psychokinesis</td>
+                                <td>The Illusionist</td>
+                                <td>Anathema (V)</td>
+                                <td>Levitation</td>
+                                <td>Darkness (E)</td>
+                            </tr>
+                            <tr>
+                                <td>Special Rod</td>
+                                <td>Psychokinesis</td>
+                                <td>ESP</td>
+                                <td>The Illusionist</td>
+                                <td>Levitation</td>
+                                <td>Darkness (E)</td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table id="scout">
+                <caption>Scout</caption>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Basic Information</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="images/scout.jpg" alt="scout">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Initial level:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>STR</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>AGI</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>CON</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>DEX</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td>INT</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>CHA</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Promotion: + 30 CON</td>
+                            </tr>
+            
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Job Skill: Healing</th>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/job_healing.jpg" alt="healing"></td>
+                                <td>
+                                    25 SP <br>
+                                    1 ally character within 3m
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 10: Auto-heal only with no weapon or Rosario equipped. Heals 188 + 7.8*(base DEX + INT) + 54.7*(invested DEX +
+                                INT) HP</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 11: Auto-heal only with no weapon or Rosario equipped. Heals 186 + 8.6*(base DEX + INT) + 60.15*(invested DEX +
+                                INT) HP</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 12: Auto-heal only with no weapon or Rosario equipped. Heals 184 + 9.4*(base DEX + INT) + 65.6*(invested DEX +
+                                INT) HP</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Equipment</th>
+                            </tr>
+                            <tr>
+                                <td>Armor:</td>
+                                <td>Leather (Scout)</td>
+                            </tr>
+                            <tr>
+                                <td>Gloves:</td>
+                                <td>Gloves(Normal), Gloves(Leather)</td>
+                            </tr>
+                            <tr>
+                                <td>Shoes:</td>
+                                <td>Boots(Normal), Boots(Leather)</td>
+                            </tr>
+                            <tr>
+                                <td>Belt:</td>
+                                <td>Belt(Normal), Belt(Leather)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <th>Weapon(s)</th>
+                                <th colspan="5">Stance</th>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>First Aid</td>
+                                <td>Fortitud</td>
+                                <td>Install Trap</td>
+                                <td>Tactical Assistance(V)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Rosario</td>
+                                <td>First Aid</td>
+                                <td>Fortitudo</td>
+                                <td>Tactical Assistance (V)</td>
+                                <td>Enhanced Tactics (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Dagger + Dagger</td>
+                                <td>Corte Duplicado</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Dagger</td>
+                                <td>Esgrima</td>
+                                <td>Arnis (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table id="musketeer">
+                <caption>Musketeer</caption>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Basic Information</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="images/musketeer.jpg" alt="musketeer">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Initial level:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>STR</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>AGI</td>
+                                <td>60</td>
+                            </tr>
+                            <tr>
+                                <td>CON</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>DEX</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>INT</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>CHA</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Promotion: + 30 DEX</td>
+                            </tr>
+            
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Job Skill: Concentration</th>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/job_concentrate.jpg" alt="provoke"></td>
+                                <td>
+                                    100 SP, 5 Mithridart <br>
+                                    Self Buff <br>
+                                    Cast 0, Action 1.9, Cooldown 60
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 10: For 300 seconds Monster Blow Damage +10%, Accuracy +30, Critical +15</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 11: For 330 seconds Monster Blow Damage +11%, Accuracy +30, Critical +16, ATK Rating +1</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 12: For 360 seconds Monster Blow Damage +12%, Accuracy +30, Critical +17, ATK Rating +1</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Equipment</th>
+                            </tr>
+                            <tr>
+                                <td>Armor:</td>
+                                <td>Coat (Musketeer)</td>
+                            </tr>
+                            <tr>
+                                <td>Gloves:</td>
+                                <td>Gloves(Normal), Gloves(Leather)</td>
+                            </tr>
+                            <tr>
+                                <td>Shoes:</td>
+                                <td>Boots(Normal), Boots(Leather)</td>
+                            </tr>
+                            <tr>
+                                <td>Belt:</td>
+                                <td>Belt(Normal), Belt(Leather)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <th>Weapon(s)</th>
+                                <th colspan="5">Stance</th>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>Bareknuckle</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Pistol</td>
+                                <td>Aiming Shot</td>
+                                <td>Freestyle Shot</td>
+                                <td>Sight Shot (V)</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Pistol + Pistol</td>
+                                <td>Double-Gun Shot</td>
+                                <td>Outrage Shot (V)</td>
+                                <td>Unlimited Shot (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Rifle</td>
+                                <td>Standing Shot</td>
+                                <td>Kneeling Shot</td>
+                                <td>Flintlock (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Bayonet</td>
+                                <td>Standing Shot</td>
+                                <td>Kneeling Shot</td>
+                                <td>Close Encounters(V)</td>
+                                <td>Flintlock (E)</td>
+                                <td>...</td>
+                            </tr>
+                            
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+            <table id="warlock">
+                <caption>Warlock</caption>
+                <tr>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Basic Information</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="images/elementalist.jpg" alt="warlock">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Initial level:</td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>STR</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>AGI</td>
+                                <td>30</td>
+                            </tr>
+                            <tr>
+                                <td>CON</td>
+                                <td>40</td>
+                            </tr>
+                            <tr>
+                                <td>DEX</td>
+                                <td>50</td>
+                            </tr>
+                            <tr>
+                                <td>INT</td>
+                                <td>80</td>
+                            </tr>
+                            <tr>
+                                <td>CHA</td>
+                                <td>70</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Promotion: + 30 INT</td>
+                            </tr>
+            
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Job Skill: Elemental Penetration</th>
+                            </tr>
+                            <tr>
+                                <td> <img src="images/job_elementalpene.jpg" alt="elemental"></td>
+                                <td>
+                                    100 SP + 20 Elemental Orb<br>
+                                    Self Buff <br>
+                                    Cast 1.1, Action 1.1, Cooldown 5
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 10: For 300sec Skill Casting Speed -5%, Enemy RES - 10</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 11: For 330sec ATK Rating +1, Skill Casting Speed -5.5%, Enemy RES - 11</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Level 12: For 360sec ATK Rating +1, Skill Casting Speed -6%, Enemy RES - 12</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table>
+                            <tr>
+                                <th colspan="2">Equipment</th>
+                            </tr>
+                            <tr>
+                                <td>Armor:</td>
+                                <td>Robe</td>
+                            </tr>
+                            <tr>
+                                <td>Gloves:</td>
+                                <td>Gloves(Normal)</td>
+                            </tr>
+                            <tr>
+                                <td>Shoes:</td>
+                                <td>Boots(Normal)</td>
+                            </tr>
+                            <tr>
+                                <td>Belt:</td>
+                                <td>Belt(Normal)</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <tr>
+                                <th>Weapon(s)</th>
+                                <th colspan="5">Stance</th>
+                            </tr>
+                            <tr>
+                                <td>None</td>
+                                <td>Possession Fire</td>
+                                <td>Possession Ice</td>
+                                <td>Possession Lightning</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Bracelet of Flame</td>
+                                <td>Possession Fire</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>2 Bracelet of Flame</td>
+                                <td>Possession Fire</td>
+                                <td>Evocation Fire</td>
+                                <td>Domination Fire (V)</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Bracelet of Ice</td>
+                                <td>Possession Ice</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>2 Bracelet of Ice</td>
+                                <td>Possession Ice</td>
+                                <td>Evocation Ice</td>
+                                <td>Domination Ice (V)</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>Bracelet of Lightning</td>
+                                <td>Possession Lightning</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>2 Bracelet of Lightning</td>
+                                <td>Possession Lightning</td>
+                                <td>Evocation Lightning</td>
+                                <td>Domination Lightning</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>LOE Bracelet</td>
+                                <td>Possession Fire</td>
+                                <td>Possession Ice</td>
+                                <td>Possession Lightning</td>
+                                <td>The Elemental Lord</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>LOE Bracelet + Bracelet of Flame</td>
+                                <td>Possession Fire</td>
+                                <td>Evocation Fire</td>
+                                <td>Domination Fire (V)</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>LOE Bracelet + Bracelet of Ice</td>
+                                <td>Possession Ice</td>
+                                <td>Evocation Ice</td>
+                                <td>Domination Ice (V)</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>LOE Bracelet + Bracelet of Lightning</td>
+                                <td>Possession Lightning</td>
+                                <td>Evocation Lightning</td>
+                                <td>Domination Lightning</td>
+                                <td>Occult Magic (E)</td>
+                                <td>...</td>
+                            </tr>
+                            <tr>
+                                <td>LOE + LOE</td>
+                                <td>Occult Magic (E)</td>
+                                <td>Occult Assistance (E)</td>
+                                <td>...</td>
+                                <td>...</td>
+                                <td>...</td>
+                            </tr>
+                           
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p> &copy; Saúl.C 2019 | Proyecto Lenguaje de Marcas</p>
+    </footer>
+
+</body>
+
+</html>
